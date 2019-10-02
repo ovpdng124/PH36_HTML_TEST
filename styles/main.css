@@ -1,0 +1,152 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 80%;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+}
+
+header #head_outside{	
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	box-shadow: 0px 1px 5px 0px;
+}
+
+header #head_outside #head_logo{
+	margin: 15px;
+	float: left;
+}
+header #head_logo a{
+	text-decoration: none;
+	font-size: 110%;
+	color: #979797;
+	font-weight: inherit;
+	letter-spacing: 4px;
+	
+}
+header #head_outside #head_menu{
+	float: right;
+}
+header #head_menu ul{
+	list-style-type: none;
+	margin-top: 10px;
+}
+header #head_menu ul li{
+	display: inline-block;
+	padding: .5em .7em;
+}
+header #head_menu a{
+	text-decoration: none;
+	padding: .6em .7em;
+	color: #979797;
+}
+header #head_menu ul li:hover{
+	background-color: #017AEB;
+	border-radius: 3px;
+}
+
+/* MAIN TOP */
+main #main_top{
+	background-image: url(../images/hamburger.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+main #main_top h1{
+	bottom: 10px;
+	position: absolute;
+	letter-spacing: 2px;
+	padding-left: 20px;
+	font-weight: inherit;
+	color: #919191;
+}
+
+main .main_mid{
+	width: 100%;
+	height: auto;
+}
+main #main_mid #main_mid_outside{
+	width: 95%;
+	margin: 10px auto;
+}
+main #main_mid_left{
+	width: 45%;
+	margin: 40px;
+	float: left;
+}
+main #main_mid_left img{
+	width: 100%;
+	height: 100%;
+}
+main #main_mid_right{
+	width: 40%;
+	margin-top: 80px;
+	float: left;
+}
+main #main_mid_content h1, h5{
+	text-align: center;
+	font-weight: inherit;
+	letter-spacing: 3px;
+}
+main #main_mid_content #content_bottom{
+	color: #B6B5B5;
+}
+
+/* MAIN BOT */
+
+main .main_bot{
+	clear: both;
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+}
+main .main_bot #main_bot_outside{
+	width: 95%;
+	height: 550px;
+}
+main #main_bot_left{
+	width: 45%;
+	margin: 40px;
+	float: left;
+}
+main #main_bot_right img{
+	width: 100%;
+	height: 100%;
+}
+main #main_bot_right{
+	width: 40%;
+	height: 95%;
+	margin-top: 40px;
+	float: left;
+}
+
+main #main_bot_content h1{
+	text-align: center;
+	font-weight: inherit;
+	letter-spacing: 3px;
+}
+main #main_bot_content h4{
+	letter-spacing: 3px;
+	padding-bottom: .7em;
+}
+main #main_bot_content p{
+	padding-bottom: 1em;
+	font-size: 90%;
+	color: #BDBDBD;
+}
+
+main #contact_content{
+	width: 100%;
+}
+main #contact_content h1{
+	margin: 0;
+}
